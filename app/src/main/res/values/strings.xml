@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Nellyy</string>
+    <string name="title_activity_imageactivity">Imageactivity</string>
+    <string name="title_activity_scroll">ScrollActivity</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_practical">PracticalActivity</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="title_activity_lottie_animation">LottieAnimationActivity</string>
+    <string name="title_activity_lottie">LottieActivity</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+</resources>
