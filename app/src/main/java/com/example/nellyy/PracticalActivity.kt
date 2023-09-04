@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CutCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -523,13 +524,17 @@ fun work() {
                         }
                     }
                 }
-
+                Button(onClick = {mContext.startActivity(Intent(mContext,MainActivity::class.java))},
+                    shape = CutCornerShape(5.dp),
+                    modifier = Modifier.padding(150.dp),
+                    colors = ButtonDefaults.buttonColors(Color.Blue)) {
+                    Text(text = "Next")
+                }
             }
-
+            }
         }
-
     }
-}
+
 @Preview(showBackground = true)
 @Composable
 fun workpreview(){

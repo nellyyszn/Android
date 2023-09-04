@@ -68,7 +68,7 @@ fun cardDemo(){
         TopAppBar(title = { Text(text = "Homepage", color = Color.Blue, fontSize = 25.sp, fontWeight = FontWeight.Bold)},
             colors = TopAppBarDefaults.largeTopAppBarColors(Color.Cyan),
             navigationIcon = {
-                IconButton(onClick = {  mContext.startActivity(Intent(mContext,IntentActivity::class.java))}) {
+                IconButton(onClick = {  mContext.startActivity(Intent(mContext,Imageactivity::class.java))}) {
                     Icon(imageVector = Icons.Filled.ArrowBack, contentDescription ="arrowback")
                 }
 
@@ -327,7 +327,7 @@ fun cardDemo(){
         }
         Spacer(modifier = Modifier.height(5.dp))
         Button(onClick = {
-            mContext.startActivity(Intent(mContext,Imageactivity::class.java))
+            mContext.startActivity(Intent(mContext,FormActivity::class.java))
         },
             shape = CutCornerShape(5.dp),
             modifier = Modifier.padding(start = 150.dp),

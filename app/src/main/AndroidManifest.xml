@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nellyy">
         <activity
+            android:name=".LocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_location"
+            android:theme="@style/Theme.Nellyy" />
+        <activity
             android:name=".HomePageActivity"
             android:exported="false"
             android:label="@string/title_activity_home_page"
